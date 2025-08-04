@@ -1,32 +1,24 @@
-You will need to fill out this file for hand in. 
-
-The bellow is just an example, feel free to disregard this documents contents.
-
-
-Your final settings.txt will look something like this when you are finished:
 
 /////////////////////////////////
 
 Wallpaper 1:
 
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let starColor = "#FF69B4";
+let strokeCol = "#800080";
+let starSize = 80;
+let strokeThickness = 3;
+let starRotation = 0;
+let backgroundCol = [240, 255, 240];
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
-
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
 }
 
 /////////////////////////////////
@@ -34,21 +26,173 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let starColor = "#4169E1";
+let strokeCol = "#000080";
+let starSize = 120;
+let strokeThickness = 5;
+let starRotation = 0;
+let backgroundCol = [230, 230, 250];
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
+}
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+/////////////////////////////////
+
+Wallpaper 3:
+
+//your parameter variables go here!
+let starColor = "#FF8C00";
+let strokeCol = "#FF4500";
+let starSize = 40;
+let strokeThickness = 2;
+let starRotation = 0;
+let backgroundCol = [255, 248, 220];
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+//your parameter variables go here!
+let starColor = "#32CD32";
+let strokeCol = "#228B22";
+let starSize = 70;
+let strokeThickness = 4;
+let starRotation = 45;
+let backgroundCol = [240, 255, 240];
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 5:
+
+//your parameter variables go here!
+let starColor = "#9370DB";
+let strokeCol = "#4B0082";
+let starSize = 140;
+let strokeThickness = 8;
+let starRotation = 30;
+let backgroundCol = [248, 248, 255];
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 6:
+
+//your parameter variables go here!
+let starColor = "#DC143C";
+let strokeCol = "#B22222";
+let starSize = 25;
+let strokeThickness = 1;
+let starRotation = 0;
+let backgroundCol = [255, 240, 245];
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 7:
+
+//your parameter variables go here!
+let starColor = "#FFD700";
+let strokeCol = "#FFA500";
+let starSize = 90;
+let strokeThickness = 6;
+let starRotation = 60;
+let backgroundCol = [255, 255, 224];
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 8:
+
+//your parameter variables go here!
+let starColor = "#00CED1";
+let strokeCol = "#008B8B";
+let starSize = 110;
+let strokeThickness = 4;
+let starRotation = 15;
+let backgroundCol = [224, 255, 255];
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 9:
+
+//your parameter variables go here!
+let starColor = "#000000";
+let strokeCol = "#696969";
+let starSize = 60;
+let strokeThickness = 2;
+let starRotation = 90;
+let backgroundCol = [255, 255, 255];
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 100;
 }
